@@ -1,0 +1,226 @@
+.top-container /* ეს არის რეალურად div, მაგრამ კლასი გავუკეთე */
+{background-color: #E4F9F5;
+height: 600px;
+margin-bottom: 0px;
+}
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top:0px;
+  margin-bottom:0px;
+text-align:center;
+font-family:'Monserrat', sans-serif; /* ეს არის დეფოლტად, მაგრამ კონკრეტულ ელემენტს გაუწერ */
+}
+   /* ნულზე აყენებ მაშინ როცა არ გინდა სივრცე იყოს. მაგრამ პირიქითაც შეგიძლია
+  გამოიყენო ეს ელემენტი და გაწერო, რომ მაგალითად margin-bottom: 20px; - ანუ ქვემოტ ქონდეს სივრცე. */
+
+h1 {
+font-family: cursive;
+margin-top: 0px;
+padding-top: 100px;
+font-size: 2.3rem;
+font-weight: normal;
+line-height:
+}
+p {
+  font-family:cursive;
+font-size: 1rem;
+}
+
+.middle-container {
+background-color:
+height: 290px;
+text-align: center;
+margin-top: 40px;
+}
+.manager {
+position: relative;
+top:35px;
+}
+.hello {
+font-family: cursive;
+position: relative;
+top:35px;
+}
+.bio {
+position: relative;
+top:35px;
+}
+
+.first {
+style="margin-top:0px;
+color: #F9F3EE;
+border-style: dotted none none ;
+border-width: 8.5px;
+width: 5%;
+}
+
+.second {
+  style="margin-top:0px;
+  color: #F9F3EE;
+  border-style: dotted none none ;
+  border-width: 8.5px;
+  width: 5%;
+}
+
+.mountain {
+position: relative;
+top: 28px;
+}
+
+.computer {
+  display: inline-block;
+}
+.h3 {
+  display:inline-block;
+  background: red;
+}
+.lorem {
+display: inline-block;
+}
+
+.skills {
+margin-top: 70px;
+height: 1000px;
+}
+.skill-row {
+width: 50%;
+margin: 0 auto 0 auto; /*ეს რო არ დავუწერო, მარცხნივ იქნება ეს დივი */
+margin-top: 100px;
+text-align: left;
+line-height: 2;
+}
+
+.comp {
+  width: 30%;
+  float:left;
+  position: relative;
+  bottom: 40px;
+}
+
+.skill-row2 {
+width: 50%;
+margin: 0 auto 0 auto;
+margin-top: 100px;
+text-align: left;
+line-height: 2;
+}
+
+.skill-row3 {
+width: 50%;
+margin: 0 auto 0 auto;
+margin-top: 100px;
+text-align: left;
+line-height: 2;
+}
+
+.convo {
+  width: 30%;
+float: right;
+position: relative;
+bottom: 70px;
+left: 30px;
+}
+
+.tech {
+width: 30%;
+float: left;
+position: relative;
+top:50px;
+}
+
+
+.profile {
+  background-color: #F9FFA4;
+height: 300px;
+}
+
+.cloud1 {
+  position: absolute;
+left: 850px;
+top:50px;
+}
+.cloud2 {
+position:absolute;
+top: 180px;
+left: 450px;
+}
+.bio {
+display:inline-block;
+}
+
+ .contact-me {
+height:250px;
+ }
+.btn {
+  position: relative;
+  top: 20px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+background-color: #E4F9F5;
+padding: 50px 0px 20px;
+margin-top: 45px;
+}
+
+.footer-link1 {
+  position: relative;
+  color: #119992;
+  right: 15px;
+  text-decoration: none; /*default-ად ყველა anchor ელემენტს აქვს underline და ამით აშორებ */
+}
+
+.footer-link2 {
+  position: relative;
+  left: 15px;
+  color: #119992;
+  text-decoration: none;
+}
+
+.footer-link1:hover {
+color: #F66B0E;
+}
+
+.footer-link2:hover {
+color: #F66B0E;
+}
+
+.copyright {
+padding-top: 20px;
+}
+
+}  /*ამ ბრჭყალს რო ვშლი ცენტრი ირევა, ვერ ვხვდები რატომ */
+
+img {
+    margin-left: -230px;
+
+}
+
+
+
+
+/* ქვემოთ რაცაა სატესტოა */
